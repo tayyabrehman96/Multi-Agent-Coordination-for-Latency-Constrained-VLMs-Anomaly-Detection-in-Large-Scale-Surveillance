@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dataset (large files)
+archive.zip
+*.zip
+Test/
+
+# Model weights / artifacts (keep local only, not in public repo)
+*.pth
+autoencoder_model.pth
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# LaTeX build artifacts (do not track compiled paper)
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Exclude the compiled CVPR/ICCV paper PDF from the repo
+CVC26_Anomaly.pdf
+
+# Paper sources to keep local only (do not upload LaTeX project)
+*.tex
+*.bib
+paper*/
+template.tex
+sample.bib
+
+# Local dashboard UI script (not part of public release)
+anomaly_dashboard.py
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Generated outputs / analysis helpers (not core system code)
+outputs/
+results/
+Images/
+figures/
+generate_results.py
+final_metrics.py
+generate_methodology_diagram.py
+generate_paper_figures.py
+
+# Cache
+.cache/
+*.cache
+
+# Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
